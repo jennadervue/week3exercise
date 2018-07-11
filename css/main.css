@@ -1,0 +1,324 @@
+/*Color Key:
+Orange: #fe9b26
+Beige: #f8f2d2
+Searchbar Grey: #b9bdba
+Text Green: #7fb069
+Border Green: #89b993
+*/
+
+body {
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	background-color: #f8f2d2;
+	position: static;
+	display: block;
+
+}
+
+		/*Navigation Bar*/
+nav {
+	margin: -17px 0;
+	background-color: #fe926b;
+	color: #f8f2d2;	
+	text-align: right;
+	text-transform: uppercase;
+}
+
+ul {
+	margin: 0;
+	padding: 4% 3% 3% 0;
+	height: 50px;
+	list-style-type: none;
+	margin: auto;
+	vertical-align: middle;
+}
+
+ul span {
+	background-image: url("../img/icon.png");
+	background-size: 1600px;
+	z-index: 999;
+	padding: 20px;
+	margin: 0;
+	;
+}
+
+li {
+	display: inline;
+	margin: 0;
+	padding: 0px 30px; 
+	font-size: 22px;
+
+
+}
+
+li:hover {
+	color: #7fb069;
+	cursor: pointer;
+}
+
+div.search {
+	display: inline-block;
+	//text-align: right;
+	padding-left: 70%;
+	padding-top: 2.5%;
+	position: static;
+	height: 50px;
+}
+
+input::placeholder {
+	font-size: 22px;
+	text-align: left;
+	color: lightgray;
+}
+
+i.fa {
+	display: inline-block;
+	position: relative;
+	color: lightgray;
+	z-index: 2;
+	left: 210px;
+	bottom: 50px;
+	font-size: 25px;
+}
+
+input {
+	padding: 7px 60px;
+	line-height: 50px;
+	text-align: right;
+	z-index: 1;
+
+}
+
+div.avocado {
+	padding: 20px;
+
+}
+
+h1 {
+	display: block;
+	font-size: 50px;
+	color: #7fb069;
+	right: 10%;
+	 position: absolute;
+    text-align: right;
+    top: 230px;
+}
+
+div.buttons {
+	position: absolute;
+	right: 10%;
+	padding-top: 350px;
+}
+
+div button {	
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 14px;
+	height: 60px;
+	width: 300px;
+	font-size: 20px;
+	padding: 0 10px;
+	text-align: center; 
+	border: 0;
+	color: #f8f2d2;
+}
+
+button.quote:hover {
+	cursor: pointer;
+	color: #fe926b;
+}
+button.quote {
+	background-color: #89b993;
+	margin-right: 40px;
+}
+
+button.case {
+	background-color: #fe926b;
+}
+
+button.case:hover {
+	cursor: pointer;
+	color: #89b993;
+}
+
+h1 span {
+	color: #fe926b;
+}
+
+div.social {
+	display: block;
+	color: #f8f2d2;
+	text-decoration: none;
+	background-color: #89b993;
+	text-align: center;
+	padding: 40px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+a {
+	color: #f8f2d2;
+	font-size: 30px;
+	padding: 40px;
+}
+
+img.logo1 {
+	width: 8%;
+	margin-top: 3%;
+	margin-right: -5%;
+	float: left;
+}
+
+img.avo1 { 
+width: 40%; 
+float: left;
+position: fixed;
+}
+
+h4 {
+	font-size: 22px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+@media (max-width: 400px) {
+	li {
+		font-size: 10px;
+		padding: 0 4px;
+		
+	}
+	ul {
+		padding: 38px 0 0 0;
+	}
+
+	img.logo1, h4 {
+		padding: 20px 0 0 0;
+	}
+	div.search { 
+		padding-left: 45% ;	
+	}
+
+	input {
+	padding: 3px 30px;
+	line-height: 30px;
+}
+	i.fa {
+	left: 150px;
+	bottom: 28px;
+	font-size: 20px;
+}
+	img.avo1 { 
+	width: 80%; 
+	position: static;
+	padding-left: 50px;
+}
+	h1 {
+	font-size: 27px;
+	right: 10%;
+	 position: absolute;
+    top: 400px;
+	}
+
+	div.social {
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+div.buttons {
+	position: absolute;
+	
+}
+
+button.quote {
+	height: 20px;
+	width: 150px;
+	font-size: 10px;
+	margin: 20px;
+	margin: 38px 0 57px 42px;
+
+}
+
+button.case {
+	height: 20px;
+	width: 150px;
+	font-size: 10px;
+	margin: 0px 0px 84px 10px;
+} 
+
+}
+
+@media (min-width: 401px) and (max-width: 600px)  {
+	li {
+		font-size: 10px;
+		padding: 0 4px;
+		
+	}
+	ul {
+		padding: 38px 0 0 0;
+	}
+
+	img.logo1, h4 {
+		padding: 20px 0 0 0;
+	}
+	div.search { 
+		padding-left: 236px;
+		padding-top: 37px;	
+	}
+
+	input {
+	padding: 3px 30px;
+	line-height: 30px;
+}
+	i.fa {
+	left: 150px;
+	bottom: 28px;
+	font-size: 20px;
+}
+	img.avo1 { 
+	width: 50%; 
+	position: static;
+	padding-left: 8px;
+}
+	h1 {
+	font-size: 26px;
+	right: 7%;
+	 position: absolute;
+    top: 122px;
+	}
+
+	div.social {
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+div.buttons {
+	position: absolute;
+	padding: 0;
+	top: 370px;
+	
+}
+
+button.quote {
+	height: 38px;
+	width: 172px;
+	font-size: 15px;
+
+}
+
+button.case {
+	height: 38px;
+	width: 172px;
+	font-size: 15px;
+	margin: 0px 40px 80px 48px;
+} 
+}
